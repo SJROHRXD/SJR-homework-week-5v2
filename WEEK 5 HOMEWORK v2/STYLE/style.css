@@ -17,12 +17,11 @@ textarea {
   background-color: #ff74ca54;
   color: #2b0e20;
   border-radius: 0;
-  /* border-bottom: 10px solid black; */
 }
 
-/* .jumbotron.h1 {
-  text-shadow: 2px 3px 5px #8c3069
-} */
+.display-3 {
+  text-shadow: 2px 3px 5px #8c3069;
+}
 
 .description {
   white-space: pre-wrap;
@@ -33,8 +32,6 @@ textarea {
 }
 .row {
   white-space: pre-wrap;
-  /* height: 80px; */
-  /* border-top: 1px solid white; */
 }
 .hour {
   background-color: transparent;
@@ -42,7 +39,7 @@ textarea {
   border-top: 1px dashed #000000;
 }
 .past {
-  background-color: #ff74ca;
+  background-color: #f7a6d8;
   color: white;
 }
 .present {
@@ -56,7 +53,6 @@ textarea {
 .saveBtn {
   font-size: 25px;
   border-color: unset;
-  /* OMG I FIXED IT THIS IS BEAUTIFUL */
   border-style: none outset outset none;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -97,6 +93,7 @@ textarea {
 }
 .form-control {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: unset;
 }
 
 .form-control:focus {
