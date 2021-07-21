@@ -1,11 +1,12 @@
+
+// VARIABLES FOR CURRENT DATE, TIME
 var currentDay = moment().format("dddd, MMMM Do, YYYY");
 $("#currentDay").append(currentDay);
 
-// var currentTime = moment().format("LT");
-// $("#currentTime").append(currentTime);
+var currentTime = moment().format("LT");
+$("#currentTime").append(currentTime);
 
-// var now = new Date().getHours();
-
+// CREATES ELEMENTS + CSS CLASSES TO MAKE THEM NICE LOOKING
 function boop() {
     for (i = 9; i <= 17; i++ ) {
     $bsdiv = $(`<div class="input-group mb-3">`)
@@ -14,9 +15,10 @@ function boop() {
     $hour.text(moment(i, 'HH').format('HH:mm'))
     $input = $(`<textarea class = "form-control description textarea" id='inputText${i}' type='text' name='userInput'></textarea>`)
     $input.text(localStorage.getItem(i))
-    $button = $(`<button class = "saveBtn fas fa-save" data-id='${i}'></button>`)
+    $button = $(`<button class = "saveBtn fas fa-check-circle" data-id='${i}'></button>`)
     
-    //Appends UI in order
+    // APPENDS ELEMENTS, IN ORDER
+    // BSDIV IS PURELY FOR LOOKS
     $('.container').append($bsdiv)
     $($bsdiv).append($row)
     $($row).append($hour)
@@ -44,49 +46,5 @@ function boop() {
     })
 }
 
-
+// RUN THAT FUNCTION
 boop();
-
-// CREATE UI
-
-// APPEND UI
-
-// SET TIME AM OR PM
-
-// COMPARISON
-
-// EVENT LISTENER LOCAL STORAGE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $row = $("<div class='input-group-prepend row'>");
-// $hour = $("<span class='input-group-text hour col-1'></span>");
-// $hour.text(moment(i, "hh").format("LT"));
-// $input = $("<textarea class='form-control description textarea col' type='text' name='userInput' id='entry[i]'></textarea>");
-// $button = $("<button class='saveBtn col-1 col-m-2 fas fa-check-circle' type='button' data-id=[i]'></button>");
-
-// $(".container").append($row);
-// $($row).append($hour);
-// $($row).append($input);
-// $($row).append($button);
-// }
