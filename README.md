@@ -4,7 +4,7 @@
 
 https://sjrohrxd.github.io/SJR-homework-week-5v2/
 
-![alt text](https://github.com/SJROHRXD/SJR-homework-week-5v2/blob/main/WEEK%5%HOMEWORK%v2/IMAGES/workdaysched.png?raw=true)
+![alt text](https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-5v2/main/WEEK%205%20HOMEWORK%20v2/IMAGES/2021-07-20%2022_08_12-SJR%20-%20Work%20Day%20Scheduler.png?raw=true)
 
 ## Project Description
 
